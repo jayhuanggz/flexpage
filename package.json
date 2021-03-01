@@ -1,7 +1,6 @@
 {
   "name": "flexpage",
   "version": "0.1.0",
-  "private": true,
   "author": "jayh",
   "scripts": {
     "serve": "vue-cli-service serve",
@@ -33,5 +32,25 @@
   },
   "rules": {
     "no-unused-vars": "off"
-  }
+  },
+  "description": "FlexPage is a front end framework for building low code admin applications. It is written in VUe, Vuex, ElementUI and webpack, though it should be easy to convert to React. In FlexPage, a page can be defined by JSON schema, with components, interactions, datasources, no extra code is needed.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jayhuanggz/flexpage.git"
+  },
+  "keywords": [
+    "vue",
+    "low code",
+    "element ui",
+    "front end framework"
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jayhuanggz/flexpage/issues"
+  },
+  "homepage": "https://github.com/jayhuanggz/flexpage#readme"
 }
