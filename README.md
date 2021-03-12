@@ -6,13 +6,14 @@ FlexPage is not another JSON schema based form renderer, it is framework to buil
 
 With FlexPage, you can do things like:
 
-* Build complex forms with json, with a set of built in configurable components and custom components. Components can interact with each other
-* Page component interactions, like reload a table when a search form submits, open a popup when you click a button. 
-* Define datasources for your components, a datasource can be an ajax
-* Define custom actions in response to user interactions on your page, like opening an url when you click a button, show/hide an element when you toggle a switch box
+* Build complex forms with json, with a set of built in components and custom components. Components can interact with each other.
+* Page component interactions, eg. reload a table when a search form submits, open a popup when you click a button. 
+* Define datasources for your components, a datasource can be a server api, an object defined in your json, a model of another compoenent in your page.
+* Define actions in response to user interactions on your page, like opening an url when you click a button, show/hide an element when you toggle a switch box.
 * Formatting, decorating your display data, like money, image, tag, date & datetime, you can define how your data display on the page.
 * Everything is extensible, you can extend according to the UX & UI design of your project.
       
+FlexPage is not an out-of-box solution, it provides a framework for you to develop low/no code admin applications that match your UX & UI design. 
 
 Here is an simple example of a page with a form, the form's model is output as json as you input. What you need is only a json file and few lines of code that renders the page:
 
