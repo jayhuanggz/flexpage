@@ -4,7 +4,17 @@ FlexPage is a front end framework for building low code admin applications. It i
 
 FlexPage is not another JSON schema based form renderer, it is framework to build low code or no code admin applications. It does not only deal with forms, it provides state binding, datasources, data transformers, and more, to support writing fully functional pages with JSON. 
 
-Here is an example of a page with a form, what you need is only a json file and few lines of code that renders the page:
+With FlexPage, you can do things like:
+
+* Build complex forms with json, with a set of built in configurable components and custom components. Components can interact with each other
+* Page component interactions, like reload a table when a search form submits, open a popup when you click a button. 
+* Define datasources for your components, a datasource can be an ajax
+* Define custom actions in response to user interactions on your page, like opening an url when you click a button, show/hide an element when you toggle a switch box
+* Formatting, decorating your display data, like money, image, tag, date & datetime, you can define how your data display on the page.
+* Everything is extensible, you can extend according to the UX & UI design of your project.
+      
+
+Here is an simple example of a page with a form, the form's model is output as json as you input. What you need is only a json file and few lines of code that renders the page:
 
 ```
 <template>
@@ -184,4 +194,7 @@ Page screen shot:
 ![](https://blog.renqilai.com/content/images/2021/02/1.PNG)
 
 The page is fully functional, all user interactions are implemented. 
+You can see a little more complicated example of a table interacting with a search form : https://github.com/jayhuanggz/flexpage/wiki/Example:-Table-with-search-form
+
+
 
